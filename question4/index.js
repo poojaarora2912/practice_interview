@@ -5,15 +5,15 @@ var submit3 = document.querySelector("#submit3");
 var output = document.querySelector("#output");
 
 function validate1(){
-    output.innerHTML = "<h1>" + text1.value + "</h1>";
+    text1.style.color = "red";
      }
 
 function validate2(){
-    output.innerHTML = "<h2>" + text1.value + "</h2>";
+    text1.style.color = "green";
 }
 
 function validate3(){
-    output.innerHTML = "<h3>" + text1.value + "</h3>";
+    text1.style.color ="blue";
 }
 
 submit1.addEventListener("click",validate1);
